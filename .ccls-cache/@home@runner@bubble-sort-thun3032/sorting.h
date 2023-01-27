@@ -10,6 +10,19 @@ void display(int a[],int n){
   
 }
 
+int Isprime(int a){
+  int i,check=1;
+  for(i=2;i<a;i++){
+    if(a%i==0){
+      check=1;
+      break;
+    }
+    else check=0;
+  }
+  if(a==2) check=0;
+  return check;
+}
+
 void selectionSort(int data[], int length) 
 { 
 	int i, j, m, mi; 
