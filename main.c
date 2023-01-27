@@ -15,6 +15,7 @@ int main(int argc,char **argv) {
     }
   }
   N=j;
+  if(N==0) printf("No prime");
   //printf("a[%d]=%d",i, a[i]);
   //printf("Initial numbers:\n");
   display(prime,N);
