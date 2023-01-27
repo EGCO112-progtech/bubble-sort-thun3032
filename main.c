@@ -9,8 +9,8 @@ int main(int argc,char **argv) {
   for(i=0;i<N;i++){
     a[i]=atoi(argv[i+1]);
   }
-  printf("a[%d]=%d",i, a[i]);
-  printf("Initial numbers:\n");
+  //printf("a[%d]=%d",i, a[i]);
+  //printf("Initial numbers:\n");
   display(a,N);
   bubbleSort(a,N); 
    //insertion(a,N);
